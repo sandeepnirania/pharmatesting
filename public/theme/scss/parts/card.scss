@@ -1,0 +1,11 @@
+.d-card {
+    margin-bottom: 30px;
+    .card-inner {
+        background-color: $navColor;
+        border: 1px solid $border-color;
+        border-radius: 20px;
+        display: block;
+        height: 100%;
+        
+    }
+}

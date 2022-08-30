@@ -1,0 +1,375 @@
+@media (min-width: 320px) {
+
+.nav-top {
+    background-color: #F2F2F2
+}
+
+.nav-top .nav-link:hover,
+.nav-top .nav-link:focus {
+    outline: none
+}
+
+.nav-top .icon-bell {
+    position: relative
+}
+
+.nav-top .icon-profile {
+    padding: 4px 0 0;
+    margin: 0
+}
+
+.nav-top .icon-profile span {
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    border: 1px solid #603D82;
+    background-color: #ECE1F7;
+    border-radius: 50%
+}
+
+.nav-top .profile-name .dropdown-menu {
+    right: 0;
+    left: inherit
+}
+
+.nav-top .profile-name .dropdown-toggle::after {
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    border: 0;
+    margin-left: 8px;
+    vertical-align: inherit
+}
+
+.nav-top a {
+    color: #5A5A5A
+}
+.nav-2 {
+    background-color: #603D82
+}
+
+.nav-2 a.nav-link {
+    color: #fff
+}
+
+.nav-2 .navbar {
+    padding-top: 2px;
+    padding-bottom: 2px
+}
+
+.nav-2 .navbar-nav>.nav-item {
+    margin-right: 10px
+}
+
+.nav-2 .navbar-nav>.nav-item:hover .nav-link .alignment,
+.nav-2 .navbar-nav>.nav-item.active .nav-link span {
+    border-bottom: 4px solid #FEB62B;
+}
+.alignment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mbp {
+    margin-bottom: -8px;
+    margin-top: -8px;
+    font-size: 1rem;
+}
+.data-1 {
+    padding-left: 250px;
+    padding-right: 26px;
+}
+.line {
+    width: 0px;
+    height: 67px;
+    border: 0.5px solid #603D82;
+    opacity: 1;
+    margin-left: 0px;
+}
+.nav-2 .profile-type .dropdown-menu {
+    right: 0;
+    left: inherit;
+    padding-left: 8px;
+    padding-right: 8px
+}
+
+.nav-2 .profile-type .dropdown-menu .dropdown-item {
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px
+}
+
+.nav-2 .profile-type .dropdown-menu .dropdown-item:hover {
+    color: #603D82;
+    background-color: #ECE1F7
+}
+
+.nav-2 .profile-type .dropdown-toggle {
+    padding-right: 0
+}
+
+.nav-2 .profile-type .dropdown-toggle:hover,
+.nav-2 .profile-type .dropdown-toggle:focus {
+    outline: none
+}
+
+.nav-2 .profile-type .dropdown-toggle::after {
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    border: 0;
+    margin-left: 8px;
+    vertical-align: inherit;
+    color: #FEB62B
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.fa-chevron-down:before {
+    content: "\f078";
+    font-size: 13px;
+}
+body {
+    font-size: 17px;
+    line-height: 1
+}
+
+.dashboard-container {
+    min-height: calc(100vh - 110px);
+    padding-top: 66px
+}
+
+.d-card {
+    margin-bottom: 30px
+}
+
+.d-card .card-inner {
+    background-color: #F2F2F2;
+    border: 1px solid #BCBBBB;
+    border-radius: 20px;
+    display: block;
+    height: 100%
+}
+
+.m-height-400 {
+    min-height: 400px
+}
+
+.m-height-300 {
+    min-height: 300px
+}
+
+.m-height-700 {
+    min-height: 700px
+}
+
+.text-2,
+.navbar-light .navbar-nav .nav-link {
+    text-align: left;
+    font: normal normal normal 17px/29px Roboto;
+    letter-spacing: 0px;
+    color: #603D82;
+    opacity: 1;
+}
+.nav-text{
+    text-align: left;
+font: normal normal normal 22px/58px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: capitalize;
+opacity: 1;
+}
+
+
+.logo {
+    height: 2.3rem;
+}
+
+.navbarTop {
+    padding: 21px 20px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0000006E;
+    opacity: 1;
+}
+
+.displayFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+}
+
+.rightSection span {
+    padding: 0px 0px 0px 15px;
+}
+
+.bell {
+    height: 40px;
+}
+
+.profile {
+    height: 54px;
+}
+
+.navbarTop .name {
+    font: normal normal normal 20px/58px Roboto;
+    letter-spacing: 0px;
+    color: #5A5A5A;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.navBar {
+    background: #603D82 0% 0% no-repeat padding-box;
+    color: #fff;
+    padding: 16px 25px;
+}
+
+.navBar .name {
+    font: normal normal normal 22px/58px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.navBar .leftSection span img {
+    height: 23px;
+}
+
+.navBar .leftSection .text {
+    font: normal normal normal 22px/58px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-left: 5px;
+}
+
+.leftSection {
+    padding-left: 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.leftSection .group {
+    padding-right: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dashboard .box {
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border: 1px solid #BCBBBB;
+    border-radius: 20px;
+    opacity: 1;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+.dashboard {
+    padding: 66px 10px;
+}
+
+.h800 {
+    height: 840px!important;
+}
+.pie{
+    height: 282px;
+    width: 256px;
+}
+.chart-text{
+    position: absolute;
+    top: 24%;
+    right: 10%;
+    font: normal normal normal 13px/20px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #4D4F5C;
+    opacity: 0.5;
+}
+
+.dashboard .box-2 {
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border: 1px solid #BCBBBB;
+    border-radius: 20px;
+    opacity: 1;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 36px;
+}
+.bar{
+    width: 100%;
+}
+.j-text {
+    text-align: left;
+    font: normal normal normal 20px/58px Roboto;
+    letter-spacing: 0px;
+    color: #5A5A5A;
+    opacity: 1;
+}
+.bell {
+    height: 40px;
+    width: 37px;
+}
+
+.bell-1 {
+    padding-top: 10px;
+}
+.down {
+    color: #FEB62B;
+    padding-left: 7px;
+    height: 13px;
+}
+.down-2 {
+    color: #5A5A5A;
+    padding-left: 7px;
+    height: 13px;
+}
+}
+@media (min-width: 768px) {
+    .pie{
+        height: 400px;
+        width: 400px;
+    }
+}
+@media (min-width: 1366px) {
+    .dashboard {
+        padding: 66px 62px;
+    }
+    .pie{
+        height: 331px;
+        width: 331px;
+    }
+    .padding {
+        padding-left: 33px;
+    }
+}
+@media (min-width: 1920px) {
+    .pie{
+        height: 351px;
+        width: 351px;
+    }
+    .line {
+        width: 0px;
+        height: 67px;
+        border: 0.5px solid #603D82;
+        opacity: 1;
+        margin-left: -63px;
+    }
+    .sp-5 {
+        padding-right: 25px;
+    }
+}
+@media (min-width: 2000px) {
+    .line {
+        margin-left: -175px;
+    }
+}

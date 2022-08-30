@@ -1,0 +1,102 @@
+.nav-top {
+    background-color: $navColor;
+    .nav-link {
+        &:hover, &:focus {
+            outline: none;
+        }
+    }
+    .icon-bell {
+        position: relative;
+        .noti-label {
+
+        }
+    }
+    .icon-profile {
+        padding: 4px 0 0;
+        margin: 0;
+        span {
+            width: 27px;
+            height: 27px;
+            display: inline-block;
+            border: 1px solid $profileBorder;
+            background-color: $profileBackGround;
+            border-radius: 50%;
+        }
+    }
+    .profile-name {
+        .dropdown-menu {
+            right: 0;
+            left: inherit;
+        }
+        .dropdown-toggle {
+            &::after {
+                content: "\f107";
+                font-family: $font-awesome;
+                border: 0;
+                margin-left: 8px;
+                vertical-align: inherit;
+            }
+        }
+    }
+    a {
+        color: $dark-color;
+    }
+}
+.nav-2 {
+    background-color: $profileBorder;
+    a {
+        &.nav-link {
+            color: $white;
+        } 
+    }
+    .navbar {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    .navbar-nav {
+        >.nav-item {
+            margin-right: 10px;
+            &:hover, &.active {
+                .nav-link {
+                    span {
+                        border-bottom: 4px solid $y-color;
+                    }
+                    
+                }
+            }
+        }
+    }
+    .profile-type {
+        .dropdown-menu {
+            right: 0;
+            left: inherit;
+            padding-left: 8px;
+            padding-right: 8px;
+            .dropdown-item {
+                border-radius: 5px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                &:hover {
+                    color: $profileBorder;
+                    background-color: $profileBackGround;
+                }
+            }
+        }
+        .dropdown-toggle {
+            padding-right: 0;
+            &:hover, &:focus {
+                outline: none;
+            }
+            &::after {
+                content: "\f107";
+                font-family: $font-awesome;
+                border: 0;
+                margin-left: 8px;
+                vertical-align: inherit;
+                color: $y-color;
+            }
+            
+        }
+    }
+
+}

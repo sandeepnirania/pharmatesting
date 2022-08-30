@@ -1,0 +1,435 @@
+
+    table.dataTable thead th {
+      border-bottom: 0;
+      text-align: center;
+      vertical-align: middle;
+      }
+      table.dataTable tfoot th {
+      border-top: 0;
+      }
+  
+      .header-text  input{
+       width: 100%;
+     }
+      .table.dataTable thead th, table.dataTable tfoot th{
+          font-weight: normal;
+          font: normal normal normal 0.75rem Roboto;
+      }
+      .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate{
+          color: #603D82;
+          font: normal normal normal 0.8rem Roboto;
+      }
+      button.dt-button, div.dt-button, a.dt-button, input.dt-button {
+          padding: .1em 0em;
+          border: 0px;
+      }
+      hr {
+      margin-bottom: 1rem;
+      }
+  
+      .header-text{
+          text-transform: capitalize;  
+      }
+      table.dataTable thead th, table.dataTable thead td {
+          padding: 2px 2px;
+      }
+     
+      table td
+     {
+      font: normal normal normal 15px/29px Roboto;
+      letter-spacing: 0px;
+      color: #000000;
+      text-transform: none;
+      opacity: 1;
+      font-size : 12px;
+      line-height: 14px;
+       padding: 5px 5px;
+    }
+    table.dataTable tbody td{
+      padding: 5px 5px;  
+    }
+    .rect-1{
+      top: 401px;
+      left: 73px;
+      height: 24px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 6px;
+      opacity: 1;
+    }
+  
+    .pull-right{
+        float: right;
+        text-align: right;
+    }
+  
+    .table.dataTable {
+      width: 100% !important;
+    }
+    .dataTables_wrapper .dataTables_info{
+      padding-top: .5em;
+    }
+    .dataTables_wrapper .dataTables_filter input{
+      font: normal normal normal 11px Roboto;
+    }
+    .header-text input{
+      padding-left : 4px;
+      font: normal normal normal 11px Roboto;
+    }
+    .btn-2 {
+      text-align: left;
+      font: normal normal normal 13px/14px Roboto;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      opacity: 1;
+      background: #603D82 0% 0% no-repeat padding-box;
+      border-radius: 7px;
+      padding-top: 3px;
+      padding-left: 17px;
+      padding-right: 15px;
+      height: 30px;
+      margin-top: -7px;
+    }
+  
+    .dataTables_wrapper .dataTables_processing{
+      color: red;
+      margin-left: 220px;
+      margin-top: -30px;
+    }
+    .line-1 {
+      margin-bottom: 5px;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+      background-color: #F2F2F2;
+  }
+  #licenses-list-main tbody tr:hover,#tasks-list-main tbody tr:hover,#client-list-main tbody tr:hover,#company-list-main tbody tr:hover,#facility-list-main tbody tr:hover,
+  #user-list-main tbody tr:hover,#document-list-main tbody tr:hover,#license_activity-list-main tbody tr:hover,#licence-list-master tbody tr:hover,#table-report tbody tr:hover,
+  #LicenseHeaderNotes tbody tr:hover
+  {
+      background-color: #ECE1F7;
+  }
+  /* .table.dataTable thead .sorting_asc {
+      color : #603D82; 
+  } */
+  .dataTables_wrapper .dataTables_paginate .paginate_button{
+    /* font: normal normal normal 11px Roboto; */
+    color : #603D82 !important; 
+  }
+  .dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active{
+    color : #603D82 !important; 
+  }
+  .dataTables_wrapper .dataTables_paginate .paginate_button{
+    color: #603D82 !important;
+    padding: .4em 0.5em;
+  }
+  .dataTables_wrapper .dataTables_paginate {
+    float: right;
+    text-align: right;
+    padding-top: 0px;
+  }
+  .task-inactive{
+    background-color: #EFEFEF;
+  }
+  
+  .table-responsive::-webkit-scrollbar {
+    /* display: none;
+    -ms-overflow-style: none; */
+    /* overflow-x: hidden; */
+    width: 10px;
+    background-color: rgb(212, 209, 209); 
+    border-radius: 10px;;
+  }
+    .table-responsive::-webkit-scrollbar-thumb {
+      background: #603D82;
+      border-radius: 5px;
+    }
+
+    .table-responsive-less::-webkit-scrollbar {
+      /* display: none;
+      -ms-overflow-style: none; */
+      /* overflow-x: hidden; */
+      width: 10px;
+      background-color: rgb(212, 209, 209); 
+      border-radius: 10px;;
+    }
+      .table-responsive-less::-webkit-scrollbar-thumb {
+        background: #603D82;
+        border-radius: 5px;
+      }
+
+      .table-responsive-less-filter::-webkit-scrollbar {
+        /* display: none;
+        -ms-overflow-style: none; */
+        /* overflow-x: hidden; */
+        width: 10px;
+        background-color: rgb(212, 209, 209); 
+        border-radius: 10px;;
+      }
+        .table-responsive-less-filter::-webkit-scrollbar-thumb {
+          background: #603D82;
+          border-radius: 5px;
+        }
+
+    @media screen and (max-width: 2300px) {
+      .table-responsive 
+        {
+        scrollbar-width: 10px;  
+        height: 81vh;
+        overflow-y: auto;
+        display: inline-block;
+        overflow-x: hidden;
+       }
+      }
+
+      @media screen and (max-width: 2000px) {
+        .table-responsive 
+          {
+          scrollbar-width: 10px;  
+          height: 76vh;
+          overflow-y: auto;
+          display: inline-block;
+          overflow-x: hidden;
+          }
+        }
+
+    @media screen and (max-width: 1800px) {
+      .table-responsive 
+        {
+        scrollbar-width: 10px;  
+        height: 69vh;
+        overflow-y: auto;
+        display: inline-block;
+        overflow-x: hidden;
+        }
+      }
+
+  @media screen and (max-width: 1500px) {
+  .table-responsive 
+    {
+    scrollbar-width: 10px;  
+    height: 65vh;
+    overflow-y: auto;
+    display: inline-block;
+    overflow-x: hidden;
+   }
+  }
+  
+  @media screen and (max-width: 1400px) {
+    .table-responsive 
+      {
+      scrollbar-width: 10px;  
+      height: 58vh;
+      overflow-y: auto;
+      display: inline-block;
+      overflow-x: hidden;
+     }
+    }
+  
+    @media screen and (max-width: 1099px) {
+      .table-responsive 
+        {
+        scrollbar-width: 10px;  
+        height: 62vh;
+        overflow-y: auto;
+        display: inline-block;
+        overflow-x: hidden;
+       }
+      }
+  
+    @media screen and (max-width: 800px) {
+      .table-responsive
+      {
+      scrollbar-width: 10px;  
+      height: 59vh;
+      overflow-y: auto;
+      display: inline-block;
+      overflow-x: hidden;
+     }
+    }
+
+    @media screen and (max-width: 2300px) {
+      .table-responsive-less
+        {
+        scrollbar-width: 10px;  
+        height: 87vh;
+        overflow-y: auto;
+        display: inline-block;
+        overflow-x: hidden;
+       }
+      }
+
+      @media screen and (max-width: 2000px) {
+        .table-responsive-less 
+          {
+          scrollbar-width: 10px;  
+          height: 80vh;
+          overflow-y: auto;
+          display: inline-block;
+          overflow-x: hidden;
+          }
+        }
+
+    @media screen and (max-width: 1800px) {
+      .table-responsive-less 
+        {
+        scrollbar-width: 10px;  
+        height: 76.5vh;
+        overflow-y: auto;
+        display: inline-block;
+        overflow-x: hidden;
+        }
+      }
+
+  @media screen and (max-width: 1500px) {
+  .table-responsive-less 
+    {
+    scrollbar-width: 10px;  
+    height: 74vh;
+    overflow-y: auto;
+    display: inline-block;
+    overflow-x: hidden;
+   }
+  }
+  
+  @media screen and (max-width: 1400px) {
+    .table-responsive-less 
+      {
+      scrollbar-width: 10px;  
+      height: 67vh;
+      overflow-y: auto;
+      display: inline-block;
+      overflow-x: hidden;
+     }
+    }
+  
+    @media screen and (max-width: 1099px) {
+      .table-responsive-less 
+        {
+        scrollbar-width: 10px;  
+        height: 85vh;
+        overflow-y: auto;
+        display: inline-block;
+        overflow-x: hidden;
+       }
+      }
+  
+    @media screen and (max-width: 800px) {
+      .table-responsive-less 
+      {
+      scrollbar-width: 10px;  
+      height: 59vh;
+      overflow-y: auto;
+      display: inline-block;
+      overflow-x: hidden;
+     }
+    }
+
+
+    @media screen and (max-width: 2300px) {
+      .table-responsive-less-filter
+        {
+        scrollbar-width: 10px;  
+        height: 87vh;
+        overflow-y: auto;
+        display: inline-block;
+        overflow-x: hidden;
+       }
+      }
+
+      @media screen and (max-width: 2000px) {
+        .table-responsive-less-filter
+          {
+          scrollbar-width: 10px;  
+          height: 80vh;
+          overflow-y: auto;
+          display: inline-block;
+          overflow-x: hidden;
+          }
+        }
+
+    @media screen and (max-width: 1800px) {
+      .table-responsive-less-filter
+        {
+        scrollbar-width: 10px;  
+        height: 76.5vh;
+        overflow-y: auto;
+        display: inline-block;
+        overflow-x: hidden;
+        }
+      }
+
+  @media screen and (max-width: 1500px) {
+  .table-responsive-less-filter
+    {
+    scrollbar-width: 10px;  
+    height: 74vh;
+    overflow-y: auto;
+    display: inline-block;
+    overflow-x: hidden;
+   }
+  }
+  
+  @media screen and (max-width: 1400px) {
+    .table-responsive-less-filter 
+      {
+      scrollbar-width: 10px;  
+      height: 67vh;
+      overflow-y: auto;
+      display: inline-block;
+      overflow-x: hidden;
+     }
+    }
+  
+    @media screen and (max-width: 1099px) {
+      .table-responsive-less--filter
+        {
+        scrollbar-width: 10px;  
+        height: 85vh;
+        overflow-y: auto;
+        display: inline-block;
+        overflow-x: hidden;
+       }
+      }
+  
+    @media screen and (max-width: 800px) {
+      .table-responsive-less-filter 
+      {
+      scrollbar-width: 10px;  
+      height: 59vh;
+      overflow-y: auto;
+      display: inline-block;
+      overflow-x: hidden;
+     }
+    }
+    
+  thead tr:first-child Th {
+    position: sticky;
+    z-index: 12;
+    top: 0;
+    background: #EDDCA9;
+    }
+    
+    thead Th {
+        position: sticky;
+        z-index: 12;
+        top: 21px;
+        background: #EDDCA9;
+    }
+    .dataTables_filter{
+      padding-right: 6px;
+    }
+    
+    .no-scrol{
+      overflow-y: hidden !important;
+      height: 30px;
+      overflow-x: hidden !important;
+    }
+    .table-responsive {
+    overflow-y: scroll;
+scrollbar-color: #603D82 rgb(212, 209, 209);
+scrollbar-width: thin !important;
+    }
+
+  

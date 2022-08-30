@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.nav-top {
+    background-color: #F2F2F2;
+    border-bottom: 1.5px solid #EDDCA9 !important;
+}
+
+.nav-top .nav-link:hover,
+.nav-top .nav-link:focus {
+    outline: none
+}
+
+.nav-top .icon-bell {
+    position: relative
+}
+
+.nav-top .icon-profile {
+    padding: 4px 0 0;
+    margin: 0
+}
+
+.nav-top .icon-profile span {
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    border: 1px solid #603D82;
+    background-color: #ECE1F7;
+    border-radius: 50%
+}
+
+.nav-top .profile-name .dropdown-menu {
+    right: 0;
+    left: inherit
+}
+
+.nav-top .profile-name .dropdown-toggle::after {
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    border: 0;
+    margin-left: 8px;
+    vertical-align: inherit
+}
+
+.nav-top a {
+    color: #5A5A5A
+}
+
+.nav-2 {
+    background-color: #603D82
+}
+
+.nav-2 a.nav-link {
+    color: #fff
+}
+
+.nav-2 .navbar {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.nav-2 .navbar-nav>.nav-item {
+    margin-right: 10px
+}
+
+.nav-2 .navbar-nav>.nav-item:hover .nav-link span,
+.nav-2 .navbar-nav>.nav-item.active .nav-link span {
+    border-bottom: 4px solid #FEB62B
+}
+
+.nav-2 .profile-type .dropdown-menu {
+    right: 0;
+    left: inherit;
+    padding-left: 8px;
+    padding-right: 8px
+}
+
+.nav-2 .profile-type .dropdown-menu .dropdown-item {
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px
+}
+
+.nav-2 .profile-type .dropdown-menu .dropdown-item:hover {
+    color: #603D82;
+    background-color: #ECE1F7
+}
+
+.nav-2 .profile-type .dropdown-toggle {
+    padding-right: 0
+}
+
+.nav-2 .profile-type .dropdown-toggle:hover,
+.nav-2 .profile-type .dropdown-toggle:focus {
+    outline: none
+}
+
+.nav-2 .profile-type .dropdown-toggle::after {
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    border: 0;
+    margin-left: 8px;
+    vertical-align: inherit;
+    color: #FEB62B
+}
+
+body {
+    font-size: 17px;
+    line-height: 1
+}
+
+.dashboard-container {
+    min-height: calc(100vh - 110px);
+    padding-top: 20px;
+}
+
+.d-card {
+    margin-bottom: 30px
+}
+
+.d-card .card-inner {
+    background-color: #F2F2F2;
+    border: 1px solid #BCBBBB;
+    border-radius: 20px;
+    display: block;
+    height: 100%
+}
+
+.m-height-400 {
+    min-height: 400px
+}
+
+.m-height-300 {
+    min-height: 300px
+}
+
+.m-height-700 {
+    min-height: 700px
+}
+
+footer {
+    color: #7c7c7c;
+    font-size: 10px
+}
+

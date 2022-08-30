@@ -1,0 +1,670 @@
+[
+    {
+        "title" : "Financial Ownership",
+        "short" : "FIN",
+        "FIN" : [
+            {
+                "question" : "Is product sold and/or shipped at this facility owned by the company?",
+                "label" : "FIN1",
+                "type" : "radio",
+                "options" : [
+                    {
+                        "val" : "Y",
+                        "label" : "Yes"
+                    },
+                    {
+                        "val" : "N",
+                        "label" : "No"
+                    }
+                ],
+                "FIN1" : [
+                    {
+                        "question" : "Does the company own the ANDA/NDA for products sold and/or shipped at this facility?",
+                        "label" : "FIN1.1",
+                        "type" : "radio",
+                        "options" : [
+                            {
+                                "val" : "Y",
+                                "label" : "Yes"
+                            },
+                            {
+                                "val" : "N",
+                                "label" : "No"
+                            }
+                        ]
+                    },
+                    {
+                        "question" : "Does your company have a labeler code for the product shipped and/or sold at this facility?",
+                        "label" : "FIN1.2",
+                        "type" : "radio",
+                        "options" : [
+                            {
+                                "val" : "Y",
+                                "label" : "Yes"
+                            },
+                            {
+                                "val" : "N",
+                                "label" : "No"
+                            }
+                        ],
+                        "FIN_1_2" : {
+                            "question" : "Does the facility only ship and/or sell product under your own label?",
+                            "label" : "FIN1.2.1",
+                            "type" : "radio",
+                            "options" : [
+                                {
+                                    "val" : "Y",
+                                    "label" : "Yes"
+                                },
+                                {
+                                    "val" : "N",
+                                    "label" : "No"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]       
+    },
+    {
+        "title" : "Physical Possession",
+        "short" : "POS",
+        "POS" : [
+            {
+                "question" : "Do you take physical possession of product?",
+                "label" : "POS1",
+                "type" : "radio",
+                "options" : [
+                    {
+                        "val" : "Y",
+                        "label" : "Yes"
+                    },
+                    {
+                        "val" : "N",
+                        "label" : "No"
+                    }
+                ],
+                "POS1" : [
+                    {
+                        "question" : "Does your company perform FDA regulated activities (e.g. import, manufacture) at this facility?",
+                        "label" : "POS1.1",
+                        "type" : "radio",
+                        "options" : [
+                            {
+                                "val" : "Y",
+                                "label" : "Yes"
+                            },
+                            {
+                                "val" : "N",
+                                "label" : "No"
+                            }
+                        ],
+                        "POS1.1" :[
+                            {
+                                "question" : "Manufacture?",
+                                "label" : "POS1.1.1",
+                                "type" : "radio",
+                                "options" : [
+                                    {
+                                        "val" : "Y",
+                                        "label" : "Yes"
+                                    },
+                                    {
+                                        "val" : "N",
+                                        "label" : "No"
+                                    }
+                                ]
+                            },
+                            {
+                                "question" : "Package?",
+                                "label" : "POS1.1.2",
+                                "type" : "radio",
+                                "options" : [
+                                    {
+                                        "val" : "Y",
+                                        "label" : "Yes"
+                                    },
+                                    {
+                                        "val" : "N",
+                                        "label" : "No"
+                                    }
+                                ]
+                            },
+                            {
+                                "question" : "Repackage?",
+                                "label" : "POS1.1.3",
+                                "type" : "radio",
+                                "options" : [
+                                    {
+                                        "val" : "Y",
+                                        "label" : "Yes"
+                                    },
+                                    {
+                                        "val" : "N",
+                                        "label" : "No"
+                                    }
+                                ]
+                            },
+                            {
+                                "question" : "Import?",
+                                "label" : "POS1.1.4",
+                                "type" : "radio",
+                                "options" : [
+                                    {
+                                        "val" : "Y",
+                                        "label" : "Yes"
+                                    },
+                                    {
+                                        "val" : "N",
+                                        "label" : "No"
+                                    }
+                                ]
+                            },
+                            {
+                                "question" : " Relabel?",
+                                "label" : "POS1.1.5",
+                                "type" : "radio",
+                                "options" : [
+                                    {
+                                        "val" : "Y",
+                                        "label" : "Yes"
+                                    },
+                                    {
+                                        "val" : "N",
+                                        "label" : "No"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "question" : "Are returns processed for credit with the manufacturer of the product at this facility?",
+                        "label" : "POS1.2",
+                        "type" : "radio",
+                        "options" : [
+                            {
+                                "val" : "Y",
+                                "label" : "Yes"
+                            },
+                            {
+                                "val" : "N",
+                                "label" : "No"
+                            }
+                        ]
+                    },
+                    {
+                        "question" : "Perform or coordinate the destruction of product?",
+                        "label" : "POS1.3",
+                        "type" : "radio",
+                        "options" : [
+                            {
+                                "val" : "Y",
+                                "label" : "Yes"
+                            },
+                            {
+                                "val" : "N",
+                                "label" : "No"
+                            }
+                        ]
+                    },
+                    {
+                        "question" : "Dispense products to patients?",
+                        "label" : "POS1.4",
+                        "type" : "radio",
+                        "options" : [
+                            {
+                                "val" : "Y",
+                                "label" : "Yes"
+                            },
+                            {
+                                "val" : "N",
+                                "label" : "No"
+                            }
+                        ]
+                    },
+                    {
+                        "question" : "Compounding?",
+                        "label" : "POS1.5",
+                        "type" : "radio",
+                        "options" : [
+                            {
+                                "val" : "Y",
+                                "label" : "Yes"
+                            },
+                            {
+                                "val" : "N",
+                                "label" : "No"
+                            }
+                        ],
+                        "POS1.5" : [
+                            {
+                                "question" : "Non-Sterile?",
+                                "label" : "POS1.5.1",
+                                "type" : "radio",
+                                "options" : [
+                                    {
+                                        "val" : "Y",
+                                        "label" : "Yes"
+                                    },
+                                    {
+                                        "val" : "N",
+                                        "label" : "No"
+                                    }
+                                ]
+                            },
+                            {
+                                "question" : "Sterile?",
+                                "label" : "POS1.5.2",
+                                "type" : "radio",
+                                "options" : [
+                                    {
+                                        "val" : "Y",
+                                        "label" : "Yes"
+                                    },
+                                    {
+                                        "val" : "N",
+                                        "label" : "No"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "question" : "Do you distribute only to veterinarian practices?",
+                        "label" : "POS1.6",
+                        "type" : "radio",
+                        "options" : [
+                            {
+                                "val" : "Y",
+                                "label" : "Yes"
+                            },
+                            {
+                                "val" : "N",
+                                "label" : "No"
+                            }
+                        ]
+                    },
+                    {
+                        "question" : "Do you only ship/distribute product to intracompany facilities?",
+                        "label" : "POS1.7",
+                        "type" : "radio",
+                        "options" : [
+                            {
+                                "val" : "Y",
+                                "label" : "Yes"
+                            },
+                            {
+                                "val" : "N",
+                                "label" : "No"
+                            }
+                        ]
+                    },
+                    {
+                        "question" : "Is this facility a regional distribution center?",
+                        "label" : "POS1.8",
+                        "type" : "radio",
+                        "options" : [
+                            {
+                                "val" : "Y",
+                                "label" : "Yes"
+                            },
+                            {
+                                "val" : "N",
+                                "label" : "No"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]       
+    },
+    {
+        "title" : "Product",
+        "short" : "PRO",
+        "PRO" : [
+            {
+                "question" : "Do you handle/manage drugs for human consumption part of your portfolio?",
+                "label" : "PRO1",
+                "type" : "radio",
+                "options" : [
+                    {
+                        "val" : "Y",
+                        "label" : "Yes"
+                    },
+                    {
+                        "val" : "N",
+                        "label" : "No"
+                    }
+                ],
+                "PRO1" : [
+                    {
+                        "question" : "Do these drugs include OTC?",
+                        "label" : "PRO1.1",
+                        "type" : "radio",
+                        "options" : [
+                            {
+                                "val" : "Y",
+                                "label" : "Yes"
+                            },
+                            {
+                                "val" : "N",
+                                "label" : "No"
+                            }
+                        ]
+                    },
+                    {
+                        "question" : "Do these drugs include Rx?",
+                        "label" : "PRO1.2",
+                        "type" : "radio",
+                        "options" : [
+                            {
+                                "val" : "Y",
+                                "label" : "Yes"
+                            },
+                            {
+                                "val" : "N",
+                                "label" : "No"
+                            }
+                        ]
+                    },
+                    {
+                        "question" : "Do these drugs include nuclear drugs?",
+                        "label" : "PRO1.3",
+                        "type" : "radio",
+                        "options" : [
+                            {
+                                "val" : "Y",
+                                "label" : "Yes"
+                            },
+                            {
+                                "val" : "N",
+                                "label" : "No"
+                            }
+                        ]
+                    },
+                    {
+                        "question" : "Do you manage or distrubute sample drugs?",
+                        "label" : "PRO1.4",
+                        "type" : "radio",
+                        "options" : [
+                            {
+                                "val" : "Y",
+                                "label" : "Yes"
+                            },
+                            {
+                                "val" : "N",
+                                "label" : "No"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "question" : "Do you handle/manage drugs for verterenary/animal consumption as part of your portfolio?",
+                "label" : "PRO2",
+                "type" : "radio",
+                "options" : [
+                    {
+                        "val" : "Y",
+                        "label" : "Yes"
+                    },
+                    {
+                        "val" : "N",
+                        "label" : "No"
+                    }
+                ],
+                "PRO2" : [
+                    {
+                        "question" : "Do these verterenarian drugs include OTC?",
+                        "label" : "PRO2.1",
+                        "type" : "radio",
+                        "options" : [
+                            {
+                                "val" : "Y",
+                                "label" : "Yes"
+                            },
+                            {
+                                "val" : "N",
+                                "label" : "No"
+                            }
+                        ]
+                    },
+                    {
+                        "question" : "Do these verterenarian drugs include Rx?",
+                        "label" : "PRO2.2",
+                        "type" : "radio",
+                        "options" : [
+                            {
+                                "val" : "Y",
+                                "label" : "Yes"
+                            },
+                            {
+                                "val" : "N",
+                                "label" : "No"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "question" : "Which of the below DEA controlled substances do you handle/manage?",
+                "label" : "PRO3",
+                "type" : "",
+                "PRO3" : [
+                    {
+                        "question" : "Schedule I",
+                        "label" : "PRO3.1",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Schedule IN",
+                        "label" : "PRO3.2",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Schedule II",
+                        "label" : "PRO3.3",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Schedule IIN",
+                        "label" : "PRO3.4",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Schedule III",
+                        "label" : "PRO3.5",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Schedule IIIN",
+                        "label" : "PRO3.6",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Schedule IV",
+                        "label" : "PRO3.7",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Schedule V",
+                        "label" : "PRO3.8",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "List I Chemicals",
+                        "label" : "PRO3.9",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "List II Chemicals",
+                        "label" : "PRO3.10",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Psuedoephedrine Liquid Dosage Form",
+                        "label" : "PRO3.11",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Psuedoephedrine Liquid Dosage Form Copy",
+                        "label" : "PRO3.12",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Psuedoephedrine OTC",
+                        "label" : "PRO3.13",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Psuedoephedrine RX",
+                        "label" : "PRO3.14",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Psuedoephedrine Solid Dosage Form",
+                        "label" : "PRO3.15",
+                        "type" : "checkbox"
+                    }
+                ]
+            },
+            {
+                "question" : "Please select any other substances you handle/manage that may be controlled by certain states",
+                "label" : "PRO4",
+                "type" : "",
+                "PRO4" : [
+                    {
+                        "question" : "Butalbital",
+                        "label" : "PRO4.1",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Carisoprodol",
+                        "label" : "PRO4.2",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Chemical Precursor_Fisnished_Dosage",
+                        "label" : "PRO4.3",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Cyclobenzaprine",
+                        "label" : "PRO4.4",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Ephedrine",
+                        "label" : "PRO4.5",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Gabapentin",
+                        "label" : "PRO4.6",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Naloxone",
+                        "label" : "PRO4.7",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Naltrexone",
+                        "label" : "PRO4.8",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Opiods",
+                        "label" : "PRO4.9",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Promethazine",
+                        "label" : "PRO4.10",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Propofol",
+                        "label" : "PRO4.11",
+                        "type" : "checkbox"
+                    }
+                ]
+            },
+            {
+                "question" : "Do you  handle/manage any of the below devices?",
+                "label" : "PRO5",
+                "type" : "",
+                "PRO5" : [
+                    {
+                        "question" : "Devices Containing Drug",
+                        "label" : "PRO5.1",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Devices Convenience Kit RX Component",
+                        "label" : "PRO5.2",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Devices OTC",
+                        "label" : "PRO5.3",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Devices Rx",
+                        "label" : "PRO5.4",
+                        "type" : "checkbox"
+                    }
+                ]
+            },
+            {
+                "question" : "Do you handle/manage any of the below objects?",
+                "label" : "PRO6",
+                "type" : "",
+                "PRO6" : [
+                    {
+                        "question" : "Accupuncture_Needles",
+                        "label" : "PRO6.1",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Dialysis_Supplies",
+                        "label" : "PRO6.2",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "DME_HME",
+                        "label" : "PRO6.3",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Medical_Gases",
+                        "label" : "PRO6.4",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Ophthalmic",
+                        "label" : "PRO6.5",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Other",
+                        "label" : "PRO6.6",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Other_Notes",
+                        "label" : "PRO6.7",
+                        "type" : "checkbox"
+                    },
+                    {
+                        "question" : "Oxygen",
+                        "label" : "PRO6.8",
+                        "type" : "checkbox"
+                    }
+                ]
+            }
+        ]       
+    }
+]
